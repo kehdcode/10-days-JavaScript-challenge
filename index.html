@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h5>Welcome to Gtbank</h5><br>
+    <script>
+     
+     let amount = prompt("Please Enter the amounts");
+        let balance = 5000;
+     
+      
+        function accountDetails(x, y){
+        
+       if(amount <= balance){
+        console.log(amount);
+         
+           document.write("Withdrawl successful");
+       }else{
+           document.write("Insufficiecnt Balance");
+       }
+   }
+      
+   accountDetails( amount, balance);
+    </script>
+</body>
+</html>
